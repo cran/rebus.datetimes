@@ -1,0 +1,13 @@
+7eeb859708bd1a4394b45309f7afd3e8 *DESCRIPTION
+5de35c045096bfa5367f3e07a7f58284 *NAMESPACE
+71b286bbc1477ac6cb62d45587b8cf60 *R/datetime-constants.R
+d7bcbe05b520eafc35128b9c5cf3ff86 *R/datetime.R
+5c7b77d906b307ca473b0663b93c6c2d *R/imports.R
+8f52e8d852820b8a3602694aa5ce2b64 *R/iso-classes.R
+8756363a58f94afe58cd37476fc26408 *README.md
+157d268c57659a91f451f36be6a4e8a3 *man/DateTime.Rd
+07b3d445b2ad5a9aa48d8e3634ccdcd2 *man/IsoClasses.Rd
+820424159b1e74fc11518e35a429dcf9 *man/get_weekdays.Rd
+1c742f967766c7e919bde3fc7361c647 *tests/testthat.R
+ec09c1e1b332150acd8fa76e55612bf2 *tests/testthat/test-datetime.R
+87c7e9e0e81c099b188261d94c82a4c2 *tests/testthat/test-get-weekdays-months.R
