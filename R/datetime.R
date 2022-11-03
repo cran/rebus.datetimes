@@ -103,7 +103,7 @@ NULL
 #'
 #' dates <- seq(as.Date("2000-01-01"), as.Date("2001-01-01"), "1 day")
 #' datetimes <- seq(as.POSIXct(Sys.Date()), as.POSIXct(Sys.Date() + 1), "1 sec")
-#' times <- substring(datetimes, 12, 19)
+#' times <- substring(format(datetimes), 12, 19)
 #' stopifnot(
 #'   all(grepl(ISO_DATE, dates)),
 #'   all(grepl(ISO_TIME, times)),
@@ -122,7 +122,7 @@ NULL
 #' @name DateTime
 NULL
 
-#' Get the days of the week
+#' Get the days of the week or months of the year
 #'
 #' Get the names of the days of the week in a given locale.
 #' @param abbreviate A logical value indicating whether or not to return
@@ -134,8 +134,8 @@ NULL
 #' the week, separated by pipes.  The first day of the week will be the current
 #' day.
 #' @note See \code{\link[base]{Sys.setlocale}} and
-#' \url{http://stackoverflow.com/q/20960821/134830} and
-#' \url{http://stackoverflow.com/q/26603564/134830} for how to specify
+#' \url{https://stackoverflow.com/q/20960821/134830} and
+#' \url{https://stackoverflow.com/q/26603564/134830} for how to specify
 #' the locale.
 #' @examples
 #' get_weekdays()
